@@ -32,7 +32,7 @@ def run_stable_diffusion(run_on_device=None):
     else:
         device = run_on_device
     
-    print(f'Running on device {device}')
+    print(f'Running on device: {device}')
 
     model_id = "stabilityai/stable-diffusion-2-1-base"
     pipe = StableDiffusionPipeline.from_pretrained(model_id).to(device)
