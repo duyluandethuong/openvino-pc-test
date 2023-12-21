@@ -33,17 +33,17 @@ python -m venv openvino_env
 
 Activate the virtual env
 
-macOS:
+**macOS**:
 ```
 source openvino_env/bin/activate
 ```
 
-Windows:
+**Windows**:
 ```
 .\openvino_env\Scripts\activate
 ```
 
-Install required tools
+## Install required tools
 
 From here on, on macOS, please replace `python` command with `python3`. For Windows, you can use `python` command.
 
@@ -51,14 +51,14 @@ From here on, on macOS, please replace `python` command with `python3`. For Wind
 python -m pip install --upgrade pip wheel setuptools
 pip install -r requirements.txt
 ```
-# Run test
+## Run test
 
-## Read this before you run the scripts
+### Read this before you run the scripts
 ⚠️ For the first time you execute the script, the model will be downloaded and it may takes several minutes depends on your network. Please be patient and let the script finish it work.
 
 ⚠️ The execution time only accounts for the time the model is loaded into memory and perform inference. It does not count the time of model downloading.
 
-## Stable Diffusion Test
+### Stable Diffusion Test
 
 This script use `stabilityai/stable-diffusion-2-1-base` text-to-image model (hosted on Huggingface) to perform inference.
 
