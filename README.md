@@ -1,7 +1,18 @@
 
 # Installation instruction
 
-On Windows: You can use Command Prompt
+## Required software components
+
+Git
+
+Python (3.10 and above)
+
+On Windows, remember to check the Add to PATH checkbox when you install Python, and after that enable Removal of path length limitation
+
+
+## Install requirements for the script
+
+On Windows: You can use Command Prompt.
 On MacOS: You can use Terminal, or Visual Studio Code Terminal is fine
 
 Clone the project and `cd` to project root directory.
@@ -9,20 +20,28 @@ Clone the project and `cd` to project root directory.
 Create a virtual environment
 
 ```
-python3 -m venv openvino_env
+python -m venv openvino_env
 ```
 
 Activate the virtual env
 
+macOS:
 ```
 source openvino_env/bin/activate
 ```
 
+Windows:
+```
+.\openvino_env\Scripts\activate
+```
+
 Install required tools
 
+From here on, on macOS, please replace `python` command with `python3`. For Windows, you can use `python` command.
+
 ```
-python3 -m pip install --upgrade pip wheel setuptools
-pip3 install -r requirements.txt
+python -m pip install --upgrade pip wheel setuptools
+pip install -r requirements.txt
 ```
 # Run test
 
