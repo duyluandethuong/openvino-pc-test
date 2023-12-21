@@ -63,7 +63,7 @@ pip install -r requirements.txt
 This script use `stabilityai/stable-diffusion-2-1-base` text-to-image model (hosted on Huggingface) to perform inference.
 
 ```
-python3 -m stable_diff --device <device_name>
+python -m stable_diff --device <device_name>
 ```
 
 The device_name is the name of detected Pytorch devices.
@@ -73,7 +73,7 @@ Tested with device_name = `mps` (for macOS), `cpu`, `cuda`
 **Example:**
 
 ```
-python3 -m stable_diff --device cpu
+python -m stable_diff --device cpu
 ```
 
 **Expected result**
