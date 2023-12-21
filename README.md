@@ -26,11 +26,10 @@ pip3 install -r requirements.txt
 ```
 # Run test
 
-[!NOTE]
-For the first time you execute the script, the model will be downloaded and it may takes several minutes depends on your network. Please be patient and let the script finish it work.
+## Read this before you run the scripts
+⚠️ For the first time you execute the script, the model will be downloaded and it may takes several minutes depends on your network. Please be patient and let the script finish it work.
 
-[!IMPORTANT]
-The execution time only accounts for the time the model is loaded into memory and perform inference. It does not count the time of model downloading.
+⚠️ The execution time only accounts for the time the model is loaded into memory and perform inference. It does not count the time of model downloading.
 
 ## Stable Diffusion Test
 
