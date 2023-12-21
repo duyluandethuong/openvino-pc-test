@@ -43,13 +43,13 @@ The device_name is the name of detected Pytorch devices.
 
 Tested with device_name = `mps` (for macOS), `cpu`, `cuda`
 
-Example:
+**Example:**
 
 ```
 python3 -m stable_diff --device cpu
 ```
 
-Example result
+**Expected result**
 
 ```
 CPU: ARM CPU
