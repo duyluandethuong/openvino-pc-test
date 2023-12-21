@@ -3,19 +3,27 @@
 
 ## Required software components
 
-Git
+Please install the following software before continue
 
-Python (3.10 and above)
+Git: https://git-scm.com/download/win
 
-On Windows, remember to check the Add to PATH checkbox when you install Python, and after that enable Removal of path length limitation
+Python (3.10 and above): https://www.python.org/downloads/ 
 
+**On Windows, remember to check the Add to PATH checkbox when you install Python, and after that enable Removal of path length limitation**
 
-## Install requirements for the script
+## Clone this repo
 
 On Windows: You can use Command Prompt.
 On MacOS: You can use Terminal, or Visual Studio Code Terminal is fine
 
 Clone the project and `cd` to project root directory.
+
+```
+git clone https://github.com/duyluandethuong/openvino-pc-test.git
+cd openvino-pc-test
+```
+
+## Install requirements for the script
 
 Create a virtual environment
 
